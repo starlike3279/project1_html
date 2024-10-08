@@ -20,6 +20,22 @@ body {
     gap: 40px;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 60px; /* 간격을 조금 넓힘 */
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  padding: 15px 20px; /* 위아래 패딩 추가 */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     width: 80%;
     max-width: 600px;
@@ -36,13 +52,6 @@ body {
     color: white;
     font-size: 24px;
     border-radius: 5px 5px 0 0;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    font-size: 14px;
 }
 
 .navigation a {

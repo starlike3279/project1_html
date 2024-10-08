@@ -20,4 +20,9 @@ public class MainController {
     public String index3(){
         return "todolist_inquiry";
     }
+
+    @GetMapping("/todocard_read_create")
+    public String index4(){
+        return "todocard_read_create";
+    }
 }
